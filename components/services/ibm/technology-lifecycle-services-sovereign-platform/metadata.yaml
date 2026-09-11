@@ -1,0 +1,54 @@
+apiVersion: sovereign-catalog.io/v1alpha1
+kind: ServiceProfile
+metadata:
+  companyRef: "companies/ibm"
+  name: "IBM Technology Lifecycle Services - Sovereign Platform Solution"
+  shortDescription: "A turnkey sovereign platform solution combining infrastructure, software, deployment services, and operational expertise into a pre-integrated offering."
+  fullDescription: "IBM Technology Lifecycle Services delivers a turnkey sovereign platform solution that combines infrastructure, software, deployment services, and operational expertise into a pre-integrated offering. Designed to accelerate adoption and reduce implementation complexity, the solution enables organizations to deploy AI-ready sovereign environments with built-in governance, compliance, security, and operational control. The service covers the full lifecycle from initial deployment through ongoing operations, providing organizations with a sovereign-by-design foundation that meets jurisdictional requirements while supporting future growth and AI capability adoption."
+  sovereignCoreRelevance: "IBM Sovereign Core and the TLS Turnkey Solution provide the fastest path from strategy to sovereign AI in production. Instead of spending months coordinating vendors, validating architectures, procuring infrastructure, and integrating technologies, organizations gain a complete, pre-engineered sovereign platform delivered as a unified solution. From infrastructure and security to governance, compliance, and operations, everything is designed to work together from day one. The result is accelerated time-to-value with reduced risk and complexity."
+  industries: ["government", "bfsi", "healthcare", "energy", "telco"]
+  intendedUsers: ["Platform teams", "Infrastructure teams", "Technology stakeholders", "Compliance officers", "Enterprise architects"]
+  lifecycleStatus: "approved"
+  storefrontVisibility: "public"
+  availabilityState: "available_central_it"
+spec:
+  serviceType: "SystemIntegration"
+  additionalServiceTypes:
+    - "ManagedOperations"
+    - "AuditAndCompliance"
+  sovereignty:
+    corporateHQ: "USA"
+    ultimateParentCompanyHQ: "USA"
+    staffClearanceLevel: "IBM Technology Lifecycle Services staff subject to IBM's global security and background check policies; EU sovereign support available"
+  certifications:
+    - framework: "FedRAMP-High"
+      status: "Active"
+    - framework: "ISO-27001"
+      status: "Active"
+    - framework: "SOC2"
+      status: "Active"
+    - framework: "BSI-C5"
+      status: "Active"
+  capabilities:
+    consulting:
+      engagementType: "Implementation"
+      deliverables:
+        - "Pre-integrated sovereign platform environment"
+        - "AI-ready sovereign infrastructure"
+        - "Built-in governance and compliance controls"
+        - "Security and operational control framework"
+      focusAreas:
+        - "Data sovereignty"
+        - "Operational sovereignty"
+        - "AI governance"
+        - "Regulatory compliance"
+        - "Infrastructure integration"
+      contacts:
+        - name: "Enikő Husztiová"
+          email: "Eniko.Huszti@sk.ibm.com"
+      support:
+        general: "WW"
+        sovereign: "EU"
+  links:
+    productPageUrl: "https://www.ibm.com/services/technology-lifecycle-services?lnk=flathl"
+    docsUrl: "https://www.ibm.com/support/pages/sovereign-support"

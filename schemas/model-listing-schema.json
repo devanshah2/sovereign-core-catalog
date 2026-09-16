@@ -135,6 +135,10 @@
               "enum": ["Safetensors", "GGUF", "ONNX", "PyTorch", "TensorFlow"],
               "description": "Model weight serialization format."
             },
+            "airgapReady": {
+              "type": "boolean",
+              "description": "Whether the model can be deployed with zero internet connectivity."
+            },
             "contextWindow": {
               "type": "integer",
               "description": "Maximum context window size in tokens."

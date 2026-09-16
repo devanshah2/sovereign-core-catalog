@@ -38,5 +38,5 @@ spec:
     type: "Helm"
     repository: "oci://registry.exate.com/charts/exate-platform:5.1.0"
   links:
-    docsUrl: "https://exate.com/resources/"
-    productPageUrl: "https://exate.com/platform/"
+    docsUrl: "https://exate.com"
+    productPageUrl: "https://exate.com"

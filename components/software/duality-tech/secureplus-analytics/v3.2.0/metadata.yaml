@@ -38,5 +38,5 @@ spec:
     type: "Helm"
     repository: "oci://registry.dualitytech.com/charts/secureplus:3.2.0"
   links:
-    docsUrl: "https://dualitytech.com/platform/secureplus/"
-    productPageUrl: "https://dualitytech.com/platform/secureplus/"
+    docsUrl: "https://dualitytech.com"
+    productPageUrl: "https://dualitytech.com"
